@@ -1,5 +1,6 @@
-package com.acme.hello.platform.profiles.domain.entity;
+package com.acme.hello.platform.profiles.domain.model.entity;
 
+import lombok.Getter;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.UUID;
@@ -16,6 +17,7 @@ import java.util.UUID;
  * @author Gabriel Vilchez Vite
  * @version 1.0.0
  * */
+@Getter
 public class Developer {
     private final UUID id;
 
